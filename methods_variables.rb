@@ -1,7 +1,7 @@
 # =================================
 # PART 1
 
-# Define a variable that stores a string
+# Define a variable that stores a string 
 
 #  call upcase on the variable, print it out
 #  call downcase on the variable, print it out
@@ -9,8 +9,19 @@
 #  call length on the variable, print it out
 
 
+string = "beep. boop. boop. bop."
 
+ puts string.upcase
+# => BEEP. BOOP. BOOP. BOP. 
 
+puts string.downcase
+# => beep. boop. boop. bop.
+
+puts string.reverse
+# => .pob .poob .poob .peeb
+
+puts string.length
+# => 22
 
 
 
